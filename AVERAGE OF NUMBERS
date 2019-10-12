@@ -1,0 +1,7 @@
+n=int(input("Enter the number of elemntes:\n "))
+a=[]
+for i in range(0,n):
+    elem=int(input("Enter element:\n "))
+    a.append(elem)
+avg=sum(a)/n
+print("Average of elements in the list\n",round(avg,2))
